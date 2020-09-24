@@ -1,1 +1,14 @@
+body{
+  background-color: #0077B5;
+  text-align: center;
+}
 
+#title{
+  font-family: sans-serif;
+  color: #ffffff;
+}
+
+#subtitle{
+  font-family: sans-serif;
+  color: #ffffff;
+}
