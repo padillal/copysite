@@ -7,17 +7,32 @@
     <title>LinkedIn</title>
   </head>
   <body>
+    <!--main title and subtitle-->
     <div class="page_header">
-      <h1 id="title">LinkedIn</h1>
+      <h1 id="title">Linked<span class="in">in</span></h1>
       <h2 id="subtitle"> Make the most of your professional life</h2>
     </div>
+    <!--input fields-->
     <div class="page_input">
-      <label for="email">Email</label>
-      <label for="password">Password (6 or more characters)</label>
+      <form>
+        <div class="email_button">
+          <label for="email">Email</label><br>
+          <input type="text" name="email">
+        </div>
+        <div class="password_button">
+          <label for="password">Password (6 or more characters)</label><br>
+          <input type="text" name="password">
+        </div>
+      </form>
+      <!--subtext and links-->
       <p id="terms">By clicking Agree & Join, you agree to the LinkedIn User
       Agreement, Privacy Policy, and Cookie Policy.</p>
-      <label for="join">Agree & Join</label>
-      <p id="signin">Already on LinkedIn? Sign in</p>
+      <!--join button-->
+      <form>
+        <button class="join">Agree & Join</button>
+      </form>
+      <!--sign in button-->
+        <p id="signin">Already on LinkedIn? Sign in</p>
     </div>
   </body>
   <footer></footer>

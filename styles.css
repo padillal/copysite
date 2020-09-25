@@ -1,14 +1,45 @@
 body{
-  background-color: #0077B5;
   text-align: center;
+  background-image: linear-gradient(to right,rgb(3,120,171), rgb(9,132,156));
 }
 
 #title{
   font-family: sans-serif;
-  color: #ffffff;
+  color: #f1f8fa;
+}
+.in{
+  color: #077ea4;
+  border-style: solid;
+  background-color: #f1f8fa;
 }
 
 #subtitle{
   font-family: sans-serif;
-  color: #ffffff;
+  color: #f1f8fa;
+}
+
+.page_input{
+
+  background-color: #edf0f3;
+  margin-top: 10px;
+  margin-bottom: 200px;
+  margin-right: 420px;
+  margin-left: 420px;
+
+}
+
+.email_button{
+  text-align: left;
+  padding-top: 15px;
+  padding-left: 85px;
+}
+.password_button{
+  text-align: left;
+  padding-top: 15px;
+  padding-left: 85px;
+}
+
+.join{
+  color: #f1f8fa;
+  background-color: #0073b1;
 }
