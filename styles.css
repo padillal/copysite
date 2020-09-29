@@ -45,14 +45,19 @@ body{
 
 .terms{
   border-style: solid;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-size: 12px;
 }
 
 .join{
   color: #f1f8fa;
   background-color: #0073b1;
-  width: 70%;
-  margin-left: 15%;
-  margin-right: 15%;
+  width: 90%;
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
   font-size: 16px;
 }
 
@@ -60,9 +65,9 @@ body{
   color: #118cc3;
   background-color: #edf0f3;
   border-color: #118cc3;
-  width: 70%;
-  margin-left: 15%;
-  margin-right: 15%;
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
   font-size: 16px;
 }
 
