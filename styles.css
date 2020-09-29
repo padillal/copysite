@@ -1,7 +1,4 @@
 body{
-  border-style: solid;
-  color:red;
-
   background-image: linear-gradient(to right,rgb(3,120,171), rgb(9,132,156));
 }
 
@@ -13,66 +10,41 @@ body{
   font-family: sans-serif;
 }
 
-#linked{
-  border-style: solid;
-  color:yellow;
+#linked, #subtitle{
+  color: #f1f7f9;
 }
 
 #in{
-  border-style: solid;
-  color: green;
+  border-radius: 2px;
+  background-color: #f1f7f9;
+  color: #08839e;
 }
 
-#subtitle{
-  border-style: solid;
-  color: blue;
-}
 
 .main_body{
-  border-style: solid;
-  color: indigo;
+  background-color: #edf0f3;
   position: relative;
   margin-left: 35%;
   margin-right: 35%;
 }
 
-.input_section{
-  border-style: solid;
-  color: violet;
+.email_section, .password_section{
+  padding-top: 4%;
 }
 
-.email_section{
-  border-style: solid;
-  color: grey;
-}
-
-#email_title{
+#email_title, #password_title{
   margin-left: 5%;
 }
 
-.email_text{
+.email_text, .password_text{
   width: 90%;
   margin-left: 5%;
   margin-right: 5%;
-}
-
-.password_section{
-  border-style: solid;
-  color: white;
-}
-
-#password_title{
-  margin-left: 5%
-}
-.password_text{
-  width: 90%;
-  margin-left: 5%;
-  margin-right: 5%;
+  height: 5%;
 }
 
 .terms{
   border-style: solid;
-  color: cyan;
 }
 
 .join{
