@@ -3,11 +3,9 @@ body{
 }
 
 .main_title{
-  border-style: solid;
-  color: orange;
-
   text-align: center;
   font-family: sans-serif;
+  padding-top: 1%;
 }
 
 #linked, #subtitle{
@@ -44,11 +42,15 @@ body{
 }
 
 .terms{
-  border-style: solid;
   width: 80%;
   margin-left: 10%;
   margin-right: 10%;
   font-size: 12px;
+}
+
+a{
+  color:#4296c4;
+  text-decoration: none;
 }
 
 .join{
@@ -59,6 +61,8 @@ body{
   margin-left: 5%;
   margin-right: 5%;
   font-size: 16px;
+  height: 6%;
+  border-radius: 4px;
 }
 
 .google{
@@ -69,84 +73,32 @@ body{
   margin-left: 5%;
   margin-right: 5%;
   font-size: 16px;
+  height: 6%;
+  border-radius: 4px;
 }
 
 .sign_in{
-  border-style: solid;
-  color: pink;
-}
-/*
-body{
-  position: fixed;
   text-align: center;
-  background-image: linear-gradient(to right,rgb(3,120,171), rgb(9,132,156));
-}
-
-#title{
-  font-family: sans-serif;
-  color: #f1f8fa;
-}
-.in{
-  color: #077ea4;
-  border-style: solid;
-  background-color: #f1f8fa;
-}
-
-#subtitle{
-  font-family: sans-serif;
-  color: #f1f8fa;
-}
-
-.page_input{
-  background-color: #edf0f3;
-  margin-top: 10px;
-  margin-bottom: 200px;
-  margin-right: 420px;
-  margin-left: 420px;
-  padding-bottom: 5px;
-
-}
-
-.email_button, .password_button{
-  text-align: left;
-  padding-top: 15px;
-  padding-left: 25px;
-  font-size: 14px;
-}
-
-#email_box, #password_box{
-  width: 300px;
-}
-
-#terms{
-  padding-left: 35px;
-  padding-right:35px;
-  font-size: 12px;
-}
-
-.join{
-  color: #f1f8fa;
-  background-color: #0073b1;
-  width: 300px;
   font-size: 16px;
-  margin-bottom: 10px;
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
 
-.google{
-  margin-top: 10px;
-  color: #118cc3;
-  background-color: #edf0f3;
-  border-color: #118cc3;
-  width: 300px;
-  font-size: 16px;
+h5 {
+    display: grid;
+    grid-template-columns: minmax(20px, 1fr) auto minmax(20px, 1fr);
+    align-items: center;
+    text-align: center;
+    grid-gap: 20px;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%
+    text-align: center;
+    font-size: 16px;
 }
 
-#signin{
-  font-size: 14px;
+h5:before,
+h5:after {
+    content: '';
+    border-top: 1px solid;
 }
-
-a{
-  color:#4296c4;
-  text-decoration: none;
-}
-*/
